@@ -1,0 +1,20 @@
+#!/bin/python3
+
+import sys
+
+
+N = int(input().strip())
+
+odd = True
+
+if N % 2 == 0:
+    odd = False
+
+if odd:
+    print("Weird")
+elif N >= 2 and N<=5:
+    print("Not Weird")
+elif N >= 6 and N <= 20:
+    print("Weird")
+else:
+    print("Not Weird")
